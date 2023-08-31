@@ -222,7 +222,9 @@ module.exports = async (Atlas, m, commands, chatUpdate) => {
       if (budy.includes(`https://chat.whatsapp.com/${linkgce}`)) {
         return;
       } else if (budy.includes(`https://chat.whatsapp`)) {
-        const bvl = `\`\`\`「  Antilink System  」\`\`\`\n\n*⚠️ Group link detected !*\n\n*🚫 You are not allowed to send group links in this group !*\n`;
+        const bvl = `\`\`\`「  Antilink System  」\`\`\`\n\n*⚠️ Group link detected !*\n\n*🚫 You are not allowed to send group links in this group !*\n`;]
+        const kice = m.sender;
+        await Atlas.groupParticipantsUpdate(m.from, [kice], "remove");
         await Atlas.sendMessage(
           from,
           {
