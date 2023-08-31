@@ -269,14 +269,14 @@ global.charID17 = {
 
 
 global.charID18 = {
-  botName : "Shinbou",
-  botVideo : "https://graph.org/file/1bacc57547657bc93aa66.mp4",
-  botImage1 : "https://wallpapercave.com/wp/wp4650481.jpg",
-  botImage2 : "https://wallpapercave.com/uwp/uwp2138883.webp",
-  botImage3 : "https://wallpapercave.com/wp/wp4650483.jpg",
-  botImage4 : "https://wallpapercave.com/wp/wp10513585.jpg",
-  botImage5 : "https://wallpapercave.com/wp/wp9650524.jpg",
-  botImage6 : "https://wallpapercave.com/wp/wp10513578.jpg",
+  botName : "Sᴀᴍᴍʏ ᴋᴜɴ",
+  botVideo : "https://telegra.ph/file/6d71617b9e77c5c7c2ff8.mp4",
+  botImage1 : "https://i.imgur.com/sZ6nl1K.jpeg",
+  botImage2 : "https://i.imgur.com/twalgEG.jpeg",
+  botImage3 : "https://i.imgur.com/EpLRFT6.jpeg",
+  botImage4 : "https://i.imgur.com/ZVg6Juf.jpeg",
+  botImage5 : "https://i.imgur.com/DDb4I7M.jpeg",
+  botImage6 : "https://wallpapercave.com/dwp1x/wp11845578.jpg",
 }
 
 global.charID19 = {
