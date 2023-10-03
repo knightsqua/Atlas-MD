@@ -27,9 +27,9 @@ module.exports = async (Atlas, anu) => {
 
 ╔════════ ≪ °❈° ≫ ═══════╗
 
-ㅤㅤㅤㅤ         〄 welcome 𝐢𝐧 〄
-            *${metadata.subject}*.
-
+ㅤㅤ      〄 welcome 𝐢𝐧 〄
+         *${metadata.subject}*
+            
 ╚════════ ≪ °❈° ≫ ═══════╝ 
 
 *🧣 𝗚𝗥𝗢𝗨𝗣 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 🧣*
@@ -56,8 +56,8 @@ ${desc}
         Atlastext = `
   @${WAuserName.split("@")[0]} Senpai left *${metadata.subject}*.
                                                        
-  *I𝙵  T𝙷𝙴  S𝚃𝙰𝚁𝚂  W𝙷𝙴𝚁𝙴  T𝙾  F𝙰𝙻𝙻  F𝚁𝙾𝙼  H𝙴𝙰𝚅𝙴𝙽  T𝙾  D𝙴𝚂𝙲𝚁𝙸𝙱𝙴  Y𝙾𝚄𝚁  B𝙴𝙰𝚄𝚃𝚈✨
-N𝙾  S𝚃𝙰𝚁  W𝙾𝚄𝙻𝙳  Leave  T𝙷𝙴  H𝙴𝙰𝚅𝙴𝙽  T𝙷𝙰𝚃  D𝙰𝚈....✨✨🗿*
+  *I𝙵  T𝙷𝙴  S𝚃𝙰𝚁𝚂  W𝙷𝙴𝚁𝙴  T𝙾  F𝙰𝙻𝙻  F𝚁𝙾𝙼  H𝙴𝙰𝚅𝙴𝙽  T𝙾  D𝙴𝚂𝙲𝚁𝙸𝙱𝙴  Y𝙾𝚄𝚁  B𝙴𝙰𝚄𝚃𝚈✨*
+  *N𝙾  S𝚃𝙰𝚁  W𝙾𝚄𝙻𝙳  Leave  T𝙷𝙴  H𝙴𝙰𝚅𝙴𝙽  T𝙷𝙰𝚃  D𝙰𝚈....✨✨🗿*
 
 ╭━━╮
 ┃╭╮┃
@@ -67,7 +67,7 @@ N𝙾  S𝚃𝙰𝚁  W𝙾𝚄𝙻𝙳  Leave  T𝙷𝙴  H𝙴𝙰𝚅𝙴𝙽
 ╰━━━┻━╮╭┻━━╯
 ╱╱╱╱╭━╯┃
 ╱╱╱╱╰━━╯
-ㅤㅤ 🔰𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 : Sᴀᴍᴍʏ
+ㅤㅤ *🔰𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 : Sᴀᴍᴍʏ*
   `;
         if (WELstatus) {
           await Atlas.sendMessage(anu.id, {
